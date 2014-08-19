@@ -5,9 +5,6 @@ components:
   - title: Titan Core
     description: The core installation of Titan
     sls_path: titan
-  - title: Rexster
-    description: A service for interacting with Titan via a REST API
-    sls_path: titan.rexster
 
 pillar_defaults:
   titan:
