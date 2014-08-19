@@ -1,0 +1,15 @@
+title: Titan stackd.io formula
+description: stackd.io formula for installing components of Titan
+root_path: titan
+components:
+  - title: Titan Core
+    description: The core installation of Titan
+    sls_path: titan
+  - title: Rexster
+    description: A service for interacting with Titan via a REST API
+    sls_path: titan.rexster
+
+pillar_defaults:
+  titan:
+    archive: http://s3.thinkaurelius.com/downloads/titan/titan-0.5.0-hadoop2.zip
+    install_dir: /mnt/titan
